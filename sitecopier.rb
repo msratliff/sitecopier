@@ -32,15 +32,15 @@ class SiteCopier
 
 end
 
-# arr = [
-#   "http://devbootcamp.com/",
-#   "http://www.hackreactor.com/",
-#   "https://wyncode.co/",
-#   ["https://www.coursereport.com/", "http://www.skilledup.com/", "https://www.becasted.com", "https://news.ycombinator.com/"].sample
-# ]
+arr = [
+  "http://devbootcamp.com/",
+  "http://www.hackreactor.com/",
+  "https://wyncode.co/",
+  ["https://www.coursereport.com/", "http://www.skilledup.com/", "https://www.becasted.com", "https://news.ycombinator.com/"].sample
+]
 
-# image_grabber = SiteCopier.new(arr)
+image_grabber = SiteCopier.new(arr)
 
-# image_grabber.get_screenshots
+image_grabber.get_screenshots
 
-# p image_grabber.images
+p image_grabber.images
